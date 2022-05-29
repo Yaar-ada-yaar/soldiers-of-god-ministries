@@ -1,0 +1,38 @@
+.welcome {
+    height: 84vh;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weltext-1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.weltext-2 {
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.wel-btns {
+    padding: 10px 20px;
+    border: none;
+    background: #d1d5d8;
+    cursor: pointer;
+    color: black;
+    margin: 40px 20px 0;
+    width: 110px;
+}
+
+.wel-btns:hover {
+    background: #ddddde;
+    color: blue;
+    transition: 2s;
+}
