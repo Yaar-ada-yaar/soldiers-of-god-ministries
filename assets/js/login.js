@@ -18,17 +18,17 @@ function check() {
   let userStatus = localStorage.getItem("userStatus");
   var liveLocation = window.location.href;
 
-  if(userStatus == 'logged' && liveLocation == 'http://127.0.0.1:5500/auth/'){
+  if(userStatus == 'logged' && liveLocation == 'https://sogministries.live/auth/'){
     window.location.href = '/index.html';
   }
   
   if (userStatus == 'logged'){
     console.log("logged!");
-  }else if (userStatus == 'logged' && liveLocation == 'http://127.0.0.1:5500/auth/'){
+  }else if (userStatus == 'logged' && liveLocation == 'https://sogministries.live/auth/'){
     window.location.href = '/index.html';
-  }else if (userStatus == 'notLogged' && liveLocation == 'http://127.0.0.1:5500/auth/'){
+  }else if (userStatus == 'notLogged' && liveLocation == 'https://sogministries.live/auth/'){
     console.log("login")
-  }else if (userStatus == 'notLogged' && liveLocation != 'http://127.0.0.1:5500/auth/'){
+  }else if (userStatus == 'notLogged' && liveLocation != 'https://sogministries.live/auth/'){
     window.location.href = '/auth';
   }
 }
