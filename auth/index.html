@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Soldiers of God Ministries</title>
+    <link rel="stylesheet" href="/assets/css/auth.css">
+  </head>
+  <body onload="check()">
+    <div include="/header.html"></div>
+
+    <div class="body">
+      <!-- <div class="login">
+        <div class="login-heading">Login</div>
+        <div class="input">
+          <label class="login-label" for="username">Username</label><br />
+          <input class="login-inputs" type="text" name="username" id="username" />
+        </div>
+        <br />
+        <div class="input">
+          <label class="login-label" for="password">Password</label><br />
+          <input class="login-inputs" type="password" name="password" id="password" />
+        </div>
+        <input type="submit" onClick="signIn()" />
+      </div>
+    </div> -->
+    <!-- <div class="center"> -->
+      <div class="login">
+
+        <h1>Login</h1>
+        <div class="login-form">
+
+          <div class="txt_field">
+            <input id="username" type="text" required>
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="txt_field">
+            <input id="password" type="password" required>
+            <span></span>
+            <label>Password</label>
+          </div>
+          <!-- <div class="pass">Forgot Password?</div> -->
+          <button id="signInBtn" onClick="signIn()">Login</button>
+          <!-- <input type="submit" value="Login"> -->
+          <div class="signup_link">
+            Not a member? <a href="#">Signup</a>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+
+    <script src="/assets/js/include.js"></script>
+    <script src="/assets/js/login.js"></script>
+    <script>
+      includeHTML();
+    </script>
+  </body>
+</html>
